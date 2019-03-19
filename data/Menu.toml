@@ -1,0 +1,30 @@
+[about]
+   Name = "About"
+   Title = "A short bio"
+   URL = "/about"
+   weight = 1
+
+[CV]
+   Name = "CV"
+   URL = "/David_Klemish_CV.pdf"
+   weight = 2
+
+[posts]
+   Name = "Posts"
+   Title = "Show list of posts"
+   URL = "/post"
+   weight = 3
+
+[tags]
+   Name = "Tags"
+   Title = "Show list of tags"
+   URL = "/tags"
+   weight = 4
+
+[teaching]
+   Name = "Teaching"
+   Title = "Teaching resources"
+   URL = "/teaching"
+   weight = 5
+
+

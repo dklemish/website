@@ -1,0 +1,34 @@
+# Hostname (and path) to the root
+baseURL = "http://example.org/"
+
+# Site title
+title = "My First Website"
+
+# Copyright
+copyright = "(c) 2018 Dave Klemish"
+
+# Theme to use (located in themes/THEMENAME)
+theme = "hyde-y"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+# Language
+languageCode = "en-us"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+# Site parameters
+[params]
+   # Sidebar position
+   sidebar = "left"
+
+   # Sidebar social links
+   linkedin = "david-klemish"
+   github = "dklemish"
+
+   # Custom CSS
+   customCSS = ["css/custom.css"]
+
