@@ -5,10 +5,11 @@ baseURL = "http://example.org/"
 title = "My First Website"
 
 # Copyright
-copyright = "(c) 2018 Dave Klemish"
+copyright = "(c) 2019 Dave Klemish"
 
 # Theme to use (located in themes/THEMENAME)
 theme = "hyde-y"
+#theme = "blackburn"
 
 # Pagination
 paginate = 10
@@ -20,7 +21,7 @@ languageCode = "en-us"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-# Site parameters
+# Site parameters for Hyde-Y
 [params]
    # Sidebar position
    sidebar = "left"
@@ -31,4 +32,6 @@ languageCode = "en-us"
 
    # Custom CSS
    customCSS = ["css/custom.css"]
+
+
 

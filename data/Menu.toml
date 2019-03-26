@@ -10,12 +10,14 @@
    weight = 2
 
 [posts]
+   Identifier = "Posts"
    Name = "Posts"
    Title = "Show list of posts"
    URL = "/post"
    weight = 3
 
 [tags]
+   Parent = "Posts"
    Name = "Tags"
    Title = "Show list of tags"
    URL = "/tags"
